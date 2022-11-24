@@ -1,0 +1,7 @@
+footer {
+	background: $background-second;
+	// grid-column: 1 / -1;
+	// grid-row: 3 / auto;
+	height: 100px;
+	grid-area: span 3 / span 2 / auto / auto;
+}

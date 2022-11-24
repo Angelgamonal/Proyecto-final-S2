@@ -1,0 +1,23 @@
+.section-cards {
+	margin-top: 2em;
+	box-sizing: border-box;
+	display: flex;
+	gap: 1em;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+	.item-card {
+		border-radius: 0.5em;
+		background: $background-first;
+		padding: 1em;
+		img {
+			width: 100%;
+			max-width: 15em;
+			object-fit: cover;
+		}
+		.card-description {
+			margin-top: 1em;
+			color: $color-white;
+		}
+	}
+}

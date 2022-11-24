@@ -1,0 +1,16 @@
+main {
+	grid-area: span 2 / span 1 / auto / auto;
+	background: $color-white;
+	width: 100%;
+
+	@media (max-width: 950px) {
+		grid-area: span 2 / span 2 / auto / auto;
+	}
+}
+
+@import '../components/carousel-bootstrap';
+@import '../components/carousel-glider';
+@import '../components/cards';
+@import '../components/collage-images';
+@import '../components/accordion';
+// @import '../components/pasarela';

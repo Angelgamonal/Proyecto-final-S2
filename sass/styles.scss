@@ -1,0 +1,32 @@
+$primary-color: #f25a38;
+$secondary-color: #735246;
+$tertiary-color: #f24c3d;
+$background-first: rgb(32, 32, 32);
+$background-second: rgb(9, 11, 13);
+$color-dark: #000200;
+$color-white: #f2f2f2;
+
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+body {
+	max-width: 1450px;
+	margin: auto;
+}
+
+.grid-style {
+	width: 100%;
+	min-height: 100vh;
+	height: auto;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-template-rows: auto minmax(20em, 1fr) 1fr auto;
+}
+
+@import './layout/header';
+@import './layout/nav-left';
+@import './layout/main';
+@import './layout/footer';
