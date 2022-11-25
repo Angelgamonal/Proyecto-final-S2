@@ -1,5 +1,6 @@
+//Similar products
 window.addEventListener('load', function () {
-	new Glider(document.querySelector('.carousel-list-glider'), {
+	new Glider(document.querySelector('.carousel-list-similar-products'), {
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		dots: '.carousel__indicadores',

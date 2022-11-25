@@ -258,3 +258,30 @@ footer {
 	height: 100px;
 	grid-area: span 3 / span 3 / auto / auto;
 }
+
+@media (max-width: 965px) {
+	.navbar-left {
+		display: none;
+	}
+	.navbar-left .box-fixed {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (max-width: 730px) {
+	header .header-right .item-navigate ul .li-desktop {
+		display: none;
+	}
+	header .header-right .item-navigate ul .li-mobile {
+		display: initial;
+	}
+}
+
+@media (max-width: 490px) {
+	header {
+		grid-template-columns: 1fr 1fr;
+	}
+	header .item-search {
+		display: none;
+	}
+}

@@ -1,5 +1,5 @@
 .section-cards {
-	margin-top: 2em;
+	margin: 2em 0;
 	box-sizing: border-box;
 	display: flex;
 	gap: 1em;
@@ -10,14 +10,46 @@
 		border-radius: 0.5em;
 		background: $background-first;
 		padding: 1em;
+
+		&:hover {
+			cursor: pointer;
+		}
+
 		img {
 			width: 100%;
-			max-width: 15em;
-			object-fit: cover;
+			height: 100%;
+			max-width: 16em;
+			max-height: 11.5em;
+			object-fit: fill;
 		}
 		.card-description {
 			margin-top: 1em;
 			color: $color-white;
+
+			h3 {
+				font-size: 1.5em;
+				font-weight: lighter;
+				width: 100%;
+				max-width: 190px;
+				max-height: 1.5em;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+
+			p {
+				text-decoration: line-through;
+				color: #ccc;
+			}
+
+			span {
+				color: $primary-color;
+				font-weight: 700;
+				font-size: 1.1em;
+			}
 		}
 	}
 }

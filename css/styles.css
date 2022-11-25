@@ -77,7 +77,19 @@ header {
             header .header-right .item-navigate ul li a i {
               font-size: 1.3em;
               padding-right: 0.3em; }
+        header .header-right .item-navigate ul .li-mobile {
+          display: none; }
+        @media (max-width: 730px) {
+          header .header-right .item-navigate ul .li-desktop {
+            display: none; }
+          header .header-right .item-navigate ul .li-mobile {
+            display: initial; } }
 
+@media (max-width: 490px) {
+  header {
+    grid-template-columns: 1fr 1fr; }
+    header .item-search {
+      display: none; } }
 .navbar-left {
   grid-area: span 2 / span 1 / auto / auto;
   background: #222;
@@ -234,6 +246,8 @@ main {
       display: flex;
       flex-direction: column;
       align-items: center; }
+      .carousel-glider .carousel-container-glider .carousel-list-glider .carousel-item-glider:hover {
+        cursor: pointer; }
       .carousel-glider .carousel-container-glider .carousel-list-glider .carousel-item-glider img {
         border-radius: 50%;
         width: 100%;
@@ -252,7 +266,7 @@ main {
   .carousel-glider {
     max-width: 50em; } }
 .section-cards {
-  margin-top: 2em;
+  margin: 2em 0;
   box-sizing: border-box;
   display: flex;
   gap: 1em;
@@ -262,13 +276,35 @@ main {
     border-radius: 0.5em;
     background: #202020;
     padding: 1em; }
+    .section-cards .item-card:hover {
+      cursor: pointer; }
     .section-cards .item-card img {
       width: 100%;
-      max-width: 15em;
-      object-fit: cover; }
+      height: 100%;
+      max-width: 16em;
+      max-height: 11.5em;
+      object-fit: fill; }
     .section-cards .item-card .card-description {
       margin-top: 1em;
       color: #f2f2f2; }
+      .section-cards .item-card .card-description h3 {
+        font-size: 1.5em;
+        font-weight: lighter;
+        width: 100%;
+        max-width: 190px;
+        max-height: 1.5em;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden; }
+        .section-cards .item-card .card-description h3:hover {
+          text-decoration: underline; }
+      .section-cards .item-card .card-description p {
+        text-decoration: line-through;
+        color: #ccc; }
+      .section-cards .item-card .card-description span {
+        color: #f25a38;
+        font-weight: 700;
+        font-size: 1.1em; }
 
 .section-collage-images {
   display: grid;

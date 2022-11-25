@@ -1,0 +1,88 @@
+import { images } from '../img/index.js';
+
+export const DataList = [
+	{
+		type: 'laptop',
+		srcImage: images.laptop1,
+		title: "IdeaPad Gaming 3 Ryzen 5 15.6' FHD NVIDIA GeForce RTX 3050 256GB SSD + 1TB HDD 8GB RAM Shadow Black-Negro",
+		price: 'S/ 3,499.00',
+		oldPrice: 'S/ 5,199.00 - 32%',
+	},
+	{
+		type: 'laptop',
+		srcImage: images.laptop2,
+		title: 'Laptop Gamer Nitro 5 CI5 11400H 8GB 512GB SSD 15.6" FHD IPS 144Hz GTX1650 4GB W11',
+		price: 'S/ 2,899.00',
+		oldPrice: 'S/ 4,499.00 - 35%',
+	},
+	{
+		type: 'headset',
+		srcImage: images.headset1,
+		title: 'Audífono Gamer para PC Laptop Celular - RGB',
+		oldPrice: 'S/ 120.00 - 52%',
+		price: 'S/ 56.90',
+	},
+	{
+		type: 'laptop',
+		srcImage: images.laptop3,
+		title: 'Laptop Gamer Gigabyte G5 15.6" 144Hz i5-11400H 8GB RAM 512GB SSD RTX 3050 Ti',
+		price: 'S/ 3,799.00',
+		oldPrice: 'S/ 4,999.00 - 24%',
+	},
+	{
+		type: 'laptop',
+		srcImage: images.laptop4,
+		title: 'Laptop Gamer Lenovo IdeaPad Gaming 3i 15.6 Full HD Intel Core i5 8GB 256GB SSD',
+		price: 'S/ 2,699.00',
+		oldPrice: 'S/ 4,999.00 - 24%',
+	},
+	{
+		type: 'mouse',
+		srcImage: images.mouse1,
+		title: 'MOUSE PARA PC LAPTOP GAMER TRONSMART ORIGINAL RGB',
+		oldPrice: 'S/ 125.00 - 36%',
+		price: 'S/ 80.00',
+	},
+	{
+		type: 'headset',
+		srcImage: images.headset2,
+		title: 'Audifono Gamer PC Laptop Ps4 Xbox One Nintendo Switch - RGB',
+		oldPrice: 'S/ 189.00',
+		price: 'S/ 149.00',
+	},
+	{
+		type: 'keyboard',
+		srcImage: images.keyboard1,
+		title: 'Teclado Gamer Mecánico T-Dagger Bora Rainbow T-TGK313 - Negro',
+		oldPrice: 'S/ 169.00 - 17%',
+		price: 'S/ 139.00',
+	},
+	{
+		type: 'keyboard',
+		srcImage: images.keyboard2,
+		title: 'Teclado Mecánico Gamer Redragon FIZZ PRO K616-RGB WHITE PINK Wireless',
+		oldPrice: 'S/ 299.00 - 26%',
+		price: 'S/ 219.00',
+	},
+	{
+		type: 'others',
+		srcImage: images.others1,
+		title: 'Cooler para Laptop Gamer 5 Ventiladores RGB ajustable',
+		oldPrice: 'S/ 120.00 - 17%',
+		price: 'S/ 99.00',
+	},
+	{
+		type: 'laptop',
+		srcImage: images.laptop5,
+		title: "LAPTOP GAMER MSI CORE I7-11800H RAM 16GB SSD 512GB VIDEO RTX 3050 4GB 17.3'' FHD 144HZ",
+		price: 'S/ 5,949.00',
+		oldPrice: 'S/ 7,000.00 ',
+	},
+	{
+		type: 'laptop',
+		srcImage: images.laptop6,
+		title: 'Laptop Gamer LENOVO IDEAPAD GAMING 3 15IHU6 INGLES I5 11300H RTX 3050',
+		price: 'S/ 3,799.00 - 10%',
+		oldPrice: 'S/ 3,399.00',
+	},
+];

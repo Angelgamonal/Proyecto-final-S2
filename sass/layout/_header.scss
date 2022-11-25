@@ -75,7 +75,27 @@ header {
 						}
 					}
 				}
+				.li-mobile {
+					display: none;
+				}
+				@media (max-width: 730px) {
+					.li-desktop {
+						display: none;
+					}
+					.li-mobile {
+						display: initial;
+					}
+				}
 			}
+		}
+	}
+}
+@media (max-width: 490px) {
+	header {
+		grid-template-columns: 1fr 1fr;
+
+		.item-search {
+			display: none;
 		}
 	}
 }

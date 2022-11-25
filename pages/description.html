@@ -38,7 +38,9 @@
 	<body>
 		<div class="grid-style">
 			<header>
-				<div class="header-left"><img src="../img/logo.png" alt="Logo" /></div>
+				<div class="header-left">
+					<a href="../index.html"><img src="../img/logo.png" alt="Logo" /></a>
+				</div>
 
 				<div class="header-right">
 					<div class="item-search">
@@ -53,21 +55,25 @@
 
 					<div class="item-navigate">
 						<ul>
-							<li>
+							<li class="li-desktop">
 								<a href="#"
 									><i class="fa-solid fa-user"></i> Iniciar Sesión</a
 								>
 							</li>
-							<li>
-								<a href="#"
+							<li class="li-desktop">
+								<a href="./pasarela.html"
 									><i class="fa-solid fa-cart-shopping"></i> Carrito</a
 								>
+							</li>
+							<li class="li-mobile">
+								<a href="./pages/pasarela.html"
+									><i class="fa-solid fa-bars"></i>
+								</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</header>
-
 			<div class="navbar-left">
 				<section class="box-fixed">
 					<div class="section-filter mt-3">
@@ -456,6 +462,6 @@
 		<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
 
 		<!-- Js -->
-		<script src="../js/carousel-glider.js"></script>
+		<script src="../js/carousel-glider-similar.js"></script>
 	</body>
 </html>
