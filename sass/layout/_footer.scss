@@ -2,6 +2,8 @@ footer {
 	background: $background-second;
 	// grid-column: 1 / -1;
 	// grid-row: 3 / auto;
-	height: 100px;
+	height: auto;
 	grid-area: span 3 / span 2 / auto / auto;
+	padding: 1em 0;
+	color: #fff;
 }

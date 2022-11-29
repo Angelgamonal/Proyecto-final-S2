@@ -403,7 +403,9 @@ main {
 
 footer {
   background: #090b0d;
-  height: 100px;
-  grid-area: span 3 / span 2 / auto / auto; }
+  height: auto;
+  grid-area: span 3 / span 2 / auto / auto;
+  padding: 1em 0;
+  color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */
